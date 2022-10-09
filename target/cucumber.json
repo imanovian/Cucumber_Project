@@ -3,6 +3,441 @@
     "line": 1,
     "elements": [
       {
+        "start_timestamp": "2022-10-09T07:30:34.037Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1365272700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.Setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Adding two numbers",
+        "description": "",
+        "id": "this-feature-will-be-creating-a-calculator-for-adding;adding-two-numbers",
+        "after": [
+          {
+            "result": {
+              "duration": 55997900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "i have a calculator",
+            "match": {
+              "location": "stepdefs.CalculatorStepDef.i_have_a_calculator()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 994600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I add 4 and 5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 6
+                },
+                {
+                  "val": "5",
+                  "offset": 12
+                }
+              ],
+              "location": "stepdefs.CalculatorStepDef.i_add_and(int,int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2001700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should get result as 9",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefs.CalculatorStepDef.i_should_get_result_as(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-09T07:30:35.524Z",
+        "before": [
+          {
+            "result": {
+              "duration": 588941100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.Setup()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "To Add two numbers",
+        "description": "",
+        "id": "this-feature-will-be-creating-a-calculator-for-adding;to-add-two-numbers;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 39008900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1002300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "i have a calculator",
+            "match": {
+              "location": "stepdefs.CalculatorStepDef.i_have_a_calculator()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I add 2 and 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 6
+                },
+                {
+                  "val": "3",
+                  "offset": 12
+                }
+              ],
+              "location": "stepdefs.CalculatorStepDef.i_add_and(int,int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 999500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should get result as 5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefs.CalculatorStepDef.i_should_get_result_as(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-09T07:30:36.164Z",
+        "before": [
+          {
+            "result": {
+              "duration": 621219000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.Setup()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "To Add two numbers",
+        "description": "",
+        "id": "this-feature-will-be-creating-a-calculator-for-adding;to-add-two-numbers;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 44008200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "i have a calculator",
+            "match": {
+              "location": "stepdefs.CalculatorStepDef.i_have_a_calculator()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I add 3 and 4",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 6
+                },
+                {
+                  "val": "4",
+                  "offset": 12
+                }
+              ],
+              "location": "stepdefs.CalculatorStepDef.i_add_and(int,int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should get result as 7",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefs.CalculatorStepDef.i_should_get_result_as(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-09T07:30:36.836Z",
+        "before": [
+          {
+            "result": {
+              "duration": 654627500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.Setup()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "To Add two numbers",
+        "description": "",
+        "id": "this-feature-will-be-creating-a-calculator-for-adding;to-add-two-numbers;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 41009500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "i have a calculator",
+            "match": {
+              "location": "stepdefs.CalculatorStepDef.i_have_a_calculator()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I add 5 and 6",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 6
+                },
+                {
+                  "val": "6",
+                  "offset": 12
+                }
+              ],
+              "location": "stepdefs.CalculatorStepDef.i_add_and(int,int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should get result as 11",
+            "match": {
+              "arguments": [
+                {
+                  "val": "11",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefs.CalculatorStepDef.i_should_get_result_as(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-09T07:30:37.539Z",
+        "before": [
+          {
+            "result": {
+              "duration": 670043500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.Setup()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "To add two numbers",
+        "description": "    Given: i have a calculator",
+        "id": "this-feature-will-be-creating-a-calculator-for-adding;to-add-two-numbers",
+        "after": [
+          {
+            "result": {
+              "duration": 61014300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1999000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I add below numbers",
+            "match": {
+              "location": "stepdefs.CalculatorStepDef.i_add_below_numbers(java.util.List\u003cjava.lang.Integer\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "3"
+                ]
+              },
+              {
+                "cells": [
+                  "2"
+                ]
+              },
+              {
+                "cells": [
+                  "5"
+                ]
+              },
+              {
+                "cells": [
+                  "4"
+                ]
+              },
+              {
+                "cells": [
+                  "3"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I should get result as 17",
+            "match": {
+              "arguments": [
+                {
+                  "val": "17",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefs.CalculatorStepDef.i_should_get_result_as(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "This feature will be creating a calculator for adding",
+    "description": "",
+    "id": "this-feature-will-be-creating-a-calculator-for-adding",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Calculator.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
         "line": 3,
         "name": "",
         "description": "",
@@ -11,7 +446,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1193209800,
+              "duration": 2416925700,
               "status": "passed"
             },
             "line": 4,
@@ -23,7 +458,7 @@
           },
           {
             "result": {
-              "duration": 7564797800,
+              "duration": 8531040800,
               "status": "passed"
             },
             "line": 5,
@@ -36,11 +471,112 @@
         ]
       },
       {
-        "start_timestamp": "2022-10-09T06:58:42.975Z",
+        "start_timestamp": "2022-10-09T07:30:38.277Z",
         "before": [
           {
             "result": {
-              "duration": 1010190900,
+              "duration": 637679500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.Setup()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "This scenario is to define the login happy path",
+        "description": "",
+        "id": "login-feature-scenario;this-scenario-is-to-define-the-login-happy-path",
+        "after": [
+          {
+            "result": {
+              "duration": 122024300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 128027800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter the correct username and passowrd",
+            "match": {
+              "location": "stepdefs.LoginStepDef.i_enter_the_correct_username_and_passowrd()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2145447300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on the Login Button",
+            "match": {
+              "location": "stepdefs.LoginStepDef.i_click_on_the_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should land on the home page",
+            "match": {
+              "location": "stepdefs.LoginStepDef.i_should_land_on_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2285946500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have launched the application",
+            "match": {
+              "location": "stepdefs.LoginStepDef.i_have_launched_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8383040300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on the Login Link",
+            "match": {
+              "location": "stepdefs.LoginStepDef.i_click_on_the_Login_Link()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-09T07:30:52.276Z",
+        "before": [
+          {
+            "result": {
+              "duration": 630958400,
               "status": "passed"
             },
             "match": {
@@ -55,7 +591,7 @@
         "after": [
           {
             "result": {
-              "duration": 60863400,
+              "duration": 2414016100,
               "status": "passed"
             },
             "match": {
@@ -68,7 +604,7 @@
         "steps": [
           {
             "result": {
-              "duration": 154557600,
+              "duration": 123026300,
               "status": "passed"
             },
             "line": 13,
@@ -80,7 +616,7 @@
           },
           {
             "result": {
-              "duration": 373238200,
+              "duration": 2404978200,
               "status": "passed"
             },
             "line": 14,
@@ -92,7 +628,7 @@
           },
           {
             "result": {
-              "duration": 712713000,
+              "duration": 23006900,
               "status": "passed"
             },
             "line": 15,
@@ -112,6 +648,242 @@
         "tags": [
           {
             "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2285193400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have launched the application",
+            "match": {
+              "location": "stepdefs.LoginStepDef.i_have_launched_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8441084000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on the Login Link",
+            "match": {
+              "location": "stepdefs.LoginStepDef.i_click_on_the_Login_Link()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-09T07:31:08.546Z",
+        "before": [
+          {
+            "result": {
+              "duration": 589140900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.Setup()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "This sceanrio is to define the failure path",
+        "description": "",
+        "id": "login-feature-scenario;this-sceanrio-is-to-define-the-failure-path;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 122026200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 119022800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I enter the username as \"abc@xyz.com\" and Password as \"Abc@1345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc@xyz.com\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"Abc@1345\"",
+                  "offset": 54
+                }
+              ],
+              "location": "stepdefs.LoginStepDef.i_enter_the_username_as_and_Password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2197537900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click on the Login Button",
+            "match": {
+              "location": "stepdefs.LoginStepDef.i_click_on_the_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20003500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I should get the error message \"The email or password you have entered is invalid.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"The email or password you have entered is invalid.\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepdefs.LoginStepDef.i_should_get_the_error_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2246047800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have launched the application",
+            "match": {
+              "location": "stepdefs.LoginStepDef.i_have_launched_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8457958100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on the Login Link",
+            "match": {
+              "location": "stepdefs.LoginStepDef.i_click_on_the_Login_Link()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-09T07:31:22.327Z",
+        "before": [
+          {
+            "result": {
+              "duration": 630958700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.Setup()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "This sceanrio is to define the failure path",
+        "description": "",
+        "id": "login-feature-scenario;this-sceanrio-is-to-define-the-failure-path;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 86025200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 121029000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I enter the username as \"pqr@xyz.com\" and Password as \"Ert@1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pqr@xyz.com\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"Ert@1234\"",
+                  "offset": 54
+                }
+              ],
+              "location": "stepdefs.LoginStepDef.i_enter_the_username_as_and_Password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 357269000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click on the Login Button",
+            "match": {
+              "location": "stepdefs.LoginStepDef.i_click_on_the_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 851190200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I should get the error message \"The email or password you have entered is invalid.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"The email or password you have entered is invalid.\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepdefs.LoginStepDef.i_should_get_the_error_message(java.lang.String)"
+            },
+            "keyword": "Then "
           }
         ]
       }

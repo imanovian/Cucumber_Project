@@ -10,8 +10,8 @@ import io.cucumber.junit.CucumberOptions;
 		monochrome=true,
 		plugin = {"pretty","html:target/html-cucumber","json:target/cucumber.json"},
 		features = "src/test/java/features", 
-		glue = "stepdefs",
-		tags = {"@sanity"}
+		glue = "stepdefs"
+		
 		
 		
 		)
